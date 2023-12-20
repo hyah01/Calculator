@@ -1,12 +1,9 @@
-.cal-background {
+body {
   display:flex;
   justify-content: center;
   align-items: center;
   height:100vh;
   background: #CAE9F5;
-}
-
-body {
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -81,5 +78,15 @@ body {
   position: absolute;
   height: 130;
   bottom: 5;
+}
+
+.author {
+  text-align: center;
+  font-family: san;
+}
+.author a {
+  text-decoration: none;
+  color: orange;
+  
 }
 
